@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Proposal.js ❤️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="editor">
+    <div class="title-bar">💙 VS Code — proposal.js</div>
+
+    <div class="code">
+      <p><span class="keyword">const</span> <span class="variable">proposal</span> = {</p>
+      <p>&nbsp;&nbsp;<span class="property">question</span>: <span class="string">"Will you be my Valentine?"</span>,</p>
+      <p>&nbsp;&nbsp;<span class="property">status</span>: <span class="string">"pending"</span></p>
+      <p>};</p>
+
+      <br />
+
+      <p><span class="keyword">if</span> (<span class="variable">yourAnswer</span> === <span class="string">"yes"</span>) {</p>
+      <p>&nbsp;&nbsp;<span class="function">deployLove</span>();</p>
+      <p>}</p>
+    </div>
+
+    <div class="buttons">
+      <button class="yes" onclick="sayYes()">💖 Yes</button>
+      <button class="no" id="noBtn" onmouseover="moveNo()">💔 No</button>
+    </div>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
